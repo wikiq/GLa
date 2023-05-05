@@ -20,8 +20,8 @@ jobs:
     #if: github.event.repository.owner.id == github.event.sender.id
     # https://p3terx.com/archives/github-actions-manual-trigger.html
     
-    steps:
-    - uses: actions/checkout@v2
+    #steps:
+    #- uses: actions/checkout@v2 
 
     - name: Install Python
       run: |
